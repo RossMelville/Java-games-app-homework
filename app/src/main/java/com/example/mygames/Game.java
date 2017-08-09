@@ -20,4 +20,12 @@ public class Game {
         return this.ranking;
     }
 
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getFormat() {
+        return this.format;
+    }
+
 }
