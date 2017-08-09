@@ -10,13 +10,13 @@ public class Game {
     private String title;
     private String format;
 
-    public Game(int ranking, String title, String format) {
+    public Game(Integer ranking, String title, String format) {
         this.ranking = ranking;
         this.title = title;
         this.format = format;
     }
 
-    public int getRanking() {
+    public Integer getRanking() {
         return this.ranking;
     }
 
