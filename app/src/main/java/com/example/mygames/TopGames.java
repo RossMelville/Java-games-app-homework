@@ -29,4 +29,8 @@ public class TopGames {
         list.add(new Game(15, "Super Mario Kart", "SNES"));
     }
 
+    public ArrayList<Game> getList() {
+        return new ArrayList<Game>(list);
+    }
+
 }

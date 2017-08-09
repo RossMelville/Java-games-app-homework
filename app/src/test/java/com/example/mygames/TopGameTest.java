@@ -13,6 +13,6 @@ public class TopGameTest {
     @Test
     public void testGetList() {
         TopGames topGames = new TopGames();
-        assertEquals(15, topGames.getList().getSize());
+        assertEquals(15, topGames.getList().size());
     }
 }
