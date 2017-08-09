@@ -27,9 +27,6 @@ public class TopGames {
         list.add(new Game(13, "Donkey Kong Country", "SNES"));
         list.add(new Game(14, "Super Metroid", "SNES"));
         list.add(new Game(15, "Super Mario Kart", "SNES"));
-
-
-
     }
 
 }
