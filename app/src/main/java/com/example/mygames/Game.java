@@ -16,6 +16,8 @@ public class Game {
         this.format = format;
     }
 
-
+    public int getRanking() {
+        return this.ranking;
+    }
 
 }

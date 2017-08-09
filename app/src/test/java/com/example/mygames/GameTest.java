@@ -20,7 +20,16 @@ public class GameTest {
 
     @Test
     public void canReturnRanking() {
-        assertEquals(1. game.getRanking);
+        assertEquals(1, game.getRanking());
     }
 
+    @Test
+    public void canReturnTitle() {
+        assertEquals("Super Mario World", game.getTitle());
+    }
+
+    @Test
+    public void canReturnFormat() {
+        assertEquals("SNES", game.getFormat());
+    }
 }
